@@ -1,4 +1,4 @@
-# ExampleSendFilesDataSnapDelphiHTTPRest
+# ExampleSendFilesDataSnapDelphiHTTPRest - Send Large Files
 
 Пример AS-IS 
 Передачи файлов с клиента на сервер и с сервера на клиент с использованием технологии DataSnap

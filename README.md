@@ -58,11 +58,11 @@ This implementation is not complicated at all, I did not place a full-fledged fi
 --- 
 Возможно Вам будет полезно видео:
 https://www.youtube.com/watch?v=NquqzZHGqi8 (Хороший пример, я с него начал, спасибо автору)
-где передача файлов осуществялется с использованием restApi и StringStream(1)
+где передача файлов осуществялется с использованием rest и TStringStream(1)
 В текущем примере реализована передача 2-ым способо
 
 Perhaps the video will be useful to you:
 https://www.youtube.com/watch?v=NquqzZHGqi8 (Thanks to the author)
-where files are transferred using the rest Api and StringStream(1)
+where files are transferred using the REST and TStringStream(1)
 In the current example, the transfer is implemented in the 2nd way
 

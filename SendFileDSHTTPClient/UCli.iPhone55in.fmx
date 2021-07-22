@@ -1,0 +1,90 @@
+inherited frmMain_iPhone55in: TfrmMain_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 3
+  inherited LayMain: TLayout
+    Size.Width = 414.000000000000000000
+    Size.Height = 716.000000000000000000
+    inherited layCap: TLayout
+      Size.Width = 414.000000000000000000
+      inherited lbCap: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited btnExit: TButton
+        Position.X = 370.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+      end
+    end
+    inherited LayContent: TLayout
+      Size.Width = 414.000000000000000000
+      Size.Height = 635.000000000000000000
+      inherited LaysendFile: TLayout
+        Size.Width = 414.000000000000000000
+        Size.Height = 595.000000000000000000
+        inherited BtnSend: TButton
+          Position.Y = 555.000000000000000000
+          Size.Width = 414.000000000000000000
+        end
+        inherited LaySelFilemob: TLayout
+          Position.Y = 457.000000000000000000
+          Size.Width = 414.000000000000000000
+          inherited btnGal: TButton
+            Position.Y = 3.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+          inherited btnCam: TButton
+            Position.X = 290.000000000000000000
+            Position.Y = 3.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 414.000000000000000000
+        end
+        inherited lbFiles: TListBox
+          Size.Width = 414.000000000000000000
+          Size.Height = 398.000000000000000000
+          Viewport.Width = 410.000000000000000000
+          Viewport.Height = 394.000000000000000000
+        end
+        inherited BtnSelFile: TButton
+          Position.Y = 507.000000000000000000
+          Size.Width = 414.000000000000000000
+        end
+        inherited btnclear: TButton
+          Position.Y = 415.000000000000000000
+          Size.Width = 414.000000000000000000
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Width = 414.000000000000000000
+        inherited BtnGetFiles: TSpeedButton
+          Position.X = 199.000000000000000000
+        end
+      end
+      inherited LayGetFiles: TLayout
+        inherited LBFileList: TListBox
+          Viewport.Width = 439.000000000000000000
+          Viewport.Height = 295.000000000000000000
+        end
+      end
+    end
+    inherited Layout1: TLayout
+      Size.Width = 414.000000000000000000
+      inherited Layout2: TLayout
+        inherited Esrv: TEdit
+          inherited ClearEditButton1: TClearEditButton
+            Size.Width = 22.000000000000000000
+            Size.Height = 27.000000000000000000
+          end
+        end
+      end
+      inherited LayPort: TLayout
+        Position.X = 207.000000000000000000
+      end
+    end
+  end
+end

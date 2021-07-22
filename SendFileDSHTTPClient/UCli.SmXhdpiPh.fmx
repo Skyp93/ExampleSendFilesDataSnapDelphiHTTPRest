@@ -1,0 +1,72 @@
+inherited frmMain_SmXhdpiPh: TfrmMain_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited LayMain: TLayout
+    Size.Width = 250.000000000000000000
+    Size.Height = 375.000000000000000000
+    inherited layCap: TLayout
+      Size.Width = 250.000000000000000000
+      inherited lbCap: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited btnExit: TButton
+        Position.X = 202.000000000000000000
+      end
+    end
+    inherited LayContent: TLayout
+      Size.Width = 250.000000000000000000
+      Size.Height = 294.000000000000000000
+      inherited LaysendFile: TLayout
+        Size.Width = 250.000000000000000000
+        Size.Height = 254.000000000000000000
+        inherited BtnSend: TButton
+          Position.Y = 214.000000000000000000
+          Size.Width = 250.000000000000000000
+        end
+        inherited LaySelFilemob: TLayout
+          Position.Y = 116.000000000000000000
+          Size.Width = 250.000000000000000000
+          inherited btnCam: TButton
+            Position.X = 122.000000000000000000
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 250.000000000000000000
+        end
+        inherited lbFiles: TListBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 57.000000000000000000
+          Viewport.Width = 246.000000000000000000
+          Viewport.Height = 53.000000000000000000
+        end
+        inherited BtnSelFile: TButton
+          Position.Y = 166.000000000000000000
+          Size.Width = 250.000000000000000000
+        end
+        inherited btnclear: TButton
+          Position.Y = 74.000000000000000000
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Width = 250.000000000000000000
+        inherited BtnGetFiles: TSpeedButton
+          Position.X = 35.000000000000000000
+        end
+      end
+      inherited LayGetFiles: TLayout
+        inherited LBFileList: TListBox
+          Viewport.Width = 439.000000000000000000
+          Viewport.Height = 295.000000000000000000
+        end
+      end
+    end
+    inherited Layout1: TLayout
+      Size.Width = 250.000000000000000000
+      inherited LayPort: TLayout
+        Position.X = 43.000000000000000000
+      end
+    end
+  end
+end

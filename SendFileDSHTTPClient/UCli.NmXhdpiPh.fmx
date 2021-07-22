@@ -1,0 +1,131 @@
+inherited frmMain_NmXhdpiPh: TfrmMain_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited laywait: TLayout
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited pnlWait: TPanel
+      Size.Width = 400.000000000000000000
+      Size.Height = 615.000000000000000000
+      inherited Aind: TAniIndicator
+        Margins.Bottom = 50.000000000000000000
+      end
+    end
+    inherited LCapWait: TLabel
+      Size.Width = 400.000000000000000000
+    end
+  end
+  inherited LayMain: TLayout
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited layCap: TLayout
+      Size.Width = 400.000000000000000000
+      inherited lbCap: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited btnExit: TButton
+        Position.X = 352.000000000000000000
+      end
+    end
+    inherited LayContent: TLayout
+      Margins.Top = 15.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 399.000000000000000000
+      inherited LaysendFile: TLayout
+        Size.Width = 400.000000000000000000
+        Size.Height = 359.000000000000000000
+        inherited BtnSend: TButton
+          Position.Y = 319.000000000000000000
+          Size.Width = 400.000000000000000000
+        end
+        inherited LaySelFilemob: TLayout
+          Position.Y = 221.000000000000000000
+          Size.Width = 400.000000000000000000
+          inherited btnCam: TButton
+            Position.X = 272.000000000000000000
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 400.000000000000000000
+        end
+        inherited lbFiles: TListBox
+          Size.Width = 400.000000000000000000
+          Size.Height = 162.000000000000000000
+          Viewport.Width = 396.000000000000000000
+          Viewport.Height = 158.000000000000000000
+        end
+        inherited BtnSelFile: TButton
+          Position.Y = 271.000000000000000000
+          Size.Width = 400.000000000000000000
+        end
+        inherited btnclear: TButton
+          Position.Y = 179.000000000000000000
+          Size.Width = 400.000000000000000000
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited BtnGetFiles: TSpeedButton
+          Position.X = 185.000000000000000000
+        end
+      end
+      inherited LayGetFiles: TLayout
+        inherited LBFileList: TListBox
+          Viewport.Width = 439.000000000000000000
+          Viewport.Height = 295.000000000000000000
+        end
+      end
+    end
+    inherited Layout1: TLayout
+      Size.Width = 400.000000000000000000
+      Size.Height = 160.000000000000000000
+      inherited Layout2: TLayout
+        Align = Top
+        Size.Width = 400.000000000000000000
+        Size.Height = 65.000000000000000000
+        inherited Label2: TLabel
+          Align = Top
+          Size.Width = 400.000000000000000000
+          Size.Height = 25.000000000000000000
+        end
+        inherited Esrv: TEdit
+          Align = Top
+          Position.X = 15.000000000000000000
+          Position.Y = 30.000000000000000000
+          Margins.Left = 15.000000000000000000
+          Margins.Right = 15.000000000000000000
+          Size.Width = 370.000000000000000000
+          Size.Height = 35.000000000000000000
+        end
+      end
+      inherited LayPort: TLayout
+        Align = Top
+        Position.Y = 65.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 112.000000000000000000
+        inherited Label3: TLabel
+          Align = Top
+          Size.Width = 398.000000000000000000
+          Size.Height = 17.000000000000000000
+        end
+        inherited NBPort: TNumberBox
+          Align = Top
+          Position.X = 15.000000000000000000
+          Position.Y = 22.000000000000000000
+          Margins.Left = 15.000000000000000000
+          Margins.Right = 15.000000000000000000
+          Size.Width = 370.000000000000000000
+          Size.Height = 35.000000000000000000
+        end
+        inherited btnCon: TButton
+          Align = Top
+          Position.X = 3.000000000000000000
+          Position.Y = 65.000000000000000000
+          Size.Width = 394.000000000000000000
+          Size.Height = 38.000000000000000000
+        end
+      end
+    end
+  end
+end

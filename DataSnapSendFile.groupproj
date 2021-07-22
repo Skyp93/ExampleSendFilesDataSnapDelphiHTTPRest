@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0AFCA9E6-D626-4DAC-AC38-604F00919ADC}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SendFileDSHTTPClient\DsCli.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SendFileDSHTTPServer\DSSrv.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DsCli">
+        <MSBuild Projects="SendFileDSHTTPClient\DsCli.dproj"/>
+    </Target>
+    <Target Name="DsCli:Clean">
+        <MSBuild Projects="SendFileDSHTTPClient\DsCli.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DsCli:Make">
+        <MSBuild Projects="SendFileDSHTTPClient\DsCli.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DSSrv">
+        <MSBuild Projects="SendFileDSHTTPServer\DSSrv.dproj"/>
+    </Target>
+    <Target Name="DSSrv:Clean">
+        <MSBuild Projects="SendFileDSHTTPServer\DSSrv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DSSrv:Make">
+        <MSBuild Projects="SendFileDSHTTPServer\DSSrv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DsCli;DSSrv"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DsCli:Clean;DSSrv:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DsCli:Make;DSSrv:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

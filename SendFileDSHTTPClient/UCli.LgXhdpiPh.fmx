@@ -1,0 +1,160 @@
+inherited frmMain_LgXhdpiPh: TfrmMain_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited StyleBook1: TStyleBook
+    Left = 120
+    Top = 288
+  end
+  inherited laywait: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited pnlWait: TPanel
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+      inherited Aind: TAniIndicator
+        HitTest = False
+        Margins.Bottom = 150.000000000000000000
+      end
+    end
+    inherited LCapWait: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited LayMain: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited layCap: TLayout
+      Size.Width = 450.000000000000000000
+      inherited lbCap: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited btnExit: TButton
+        Position.X = 402.000000000000000000
+      end
+    end
+    inherited LayContent: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 470.000000000000000000
+      inherited LaysendFile: TLayout
+        Size.Width = 450.000000000000000000
+        Size.Height = 375.000000000000000000
+        inherited BtnSend: TButton
+          Position.Y = 335.000000000000000000
+          Size.Width = 450.000000000000000000
+        end
+        inherited LaySelFilemob: TLayout
+          Position.Y = 237.000000000000000000
+          Size.Width = 450.000000000000000000
+          inherited btnCam: TButton
+            Position.X = 322.000000000000000000
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 450.000000000000000000
+        end
+        inherited lbFiles: TListBox
+          Size.Width = 450.000000000000000000
+          Size.Height = 178.000000000000000000
+          StyleLookup = 'listboxstyle'
+          Viewport.Width = 446.000000000000000000
+          Viewport.Height = 174.000000000000000000
+        end
+        inherited BtnSelFile: TButton
+          Position.Y = 287.000000000000000000
+          Size.Width = 450.000000000000000000
+        end
+        inherited btnclear: TButton
+          Position.Y = 195.000000000000000000
+          Size.Width = 450.000000000000000000
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Width = 450.000000000000000000
+        Size.Height = 95.000000000000000000
+        inherited sBSendFile: TSpeedButton
+          Align = Top
+          Size.Width = 450.000000000000000000
+          Size.Height = 48.000000000000000000
+        end
+        inherited BtnGetFiles: TSpeedButton
+          Align = Top
+          Position.Y = 48.000000000000000000
+          Size.Width = 450.000000000000000000
+          Size.Height = 48.000000000000000000
+        end
+      end
+      inherited LayGetFiles: TLayout
+        inherited LBFileList: TListBox
+          Viewport.Width = 439.000000000000000000
+          Viewport.Height = 295.000000000000000000
+        end
+      end
+    end
+    inherited Layout1: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 184.000000000000000000
+      inherited Layout2: TLayout
+        Align = Top
+        Size.Width = 450.000000000000000000
+        Size.Height = 73.000000000000000000
+        inherited Label2: TLabel
+          Align = Top
+          Size.Width = 450.000000000000000000
+          Size.Height = 25.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1057#1077#1088#1074#1077#1088'(ip)'
+        end
+        inherited Esrv: TEdit
+          Align = Top
+          TextSettings.HorzAlign = Center
+          Position.X = 30.000000000000000000
+          Position.Y = 30.000000000000000000
+          Margins.Left = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Size.Width = 390.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+      inherited LayPort: TLayout
+        Align = Top
+        Position.Y = 73.000000000000000000
+        Size.Width = 450.000000000000000000
+        Size.Height = 111.000000000000000000
+        inherited Label3: TLabel
+          Align = Top
+          Size.Width = 448.000000000000000000
+          Size.Height = 25.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1055#1086#1088#1090
+        end
+        inherited NBPort: TNumberBox
+          Align = Top
+          KeyboardType = NamePhonePad
+          TextSettings.HorzAlign = Center
+          Position.X = 50.000000000000000000
+          Position.Y = 30.000000000000000000
+          Margins.Left = 50.000000000000000000
+          Margins.Right = 50.000000000000000000
+          Size.Width = 350.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+        inherited btnCon: TButton
+          Align = Top
+          Margins.Left = 35.000000000000000000
+          Margins.Top = 1.000000000000000000
+          Margins.Right = 35.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 35.000000000000000000
+          Position.Y = 68.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 44.000000000000000000
+        end
+      end
+    end
+  end
+  inherited Alist: TActionList
+    Left = 384
+    Top = 432
+  end
+end
